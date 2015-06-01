@@ -1,0 +1,11 @@
+{
+    "layers":{
+        "world": { 
+            "src": "ARC.shp", 
+                "simplify": 2,
+                "attributes" : {
+                    "iso3":"ISO_3_CODE"
+                }
+        }
+    }
+}
