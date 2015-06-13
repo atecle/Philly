@@ -11,9 +11,14 @@
         <div id="map"></div>
         <script type="text/javascript">
             var map = kartograph.map("#map");
-            map.loadMap('svg/neighborhoods.svg', function() {
-                 map.addLayer('neighborhoods');
-                 });
-        </script>
+            map.loadMap('svg/PHLNeighborhoods.svg', function() {
+                    map.addLayer('neighborhoods', {
+                        styles:{
+                        'stroke-width': '3.5px',
+                        fill: '#f6f4f2'
+                            }
+                            });
+                    });
+</script>
     </body>
 </html>
